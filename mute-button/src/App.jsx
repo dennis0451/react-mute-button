@@ -17,14 +17,14 @@ function App() {
     }else{
       changeButton(true)
     }
-    document.getElementById('answer').innerHTML=isMute
+    // document.getElementById('answer').innerHTML=isMute
   }
   
 
   return (
     <div id='here' className="App">
       <button onClick={changeMute}><MuteButton isTrue = {isMute}/></button>
-      <p id='answer'></p>
+      {/* <p id='answer'></p> */}
 
     </div>
   )
